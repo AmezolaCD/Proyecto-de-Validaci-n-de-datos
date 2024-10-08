@@ -20,7 +20,7 @@ def verificar_palabra(palabra):
         print(f"Sobran letras. Tiene {longitud} letras.")
 
 def solicitar_palabra():
-    """Solicita una palabra al usuario y la verifica, permitiendo salir con la palabra 'salir'."""
+    """Solicita una palabra al usuario y la veriica, permitiendo salir con la palabra 'salir'."""
     while True:
         palabra = input("Ingrese una palabra (o escriba 'salir' para terminar): ").strip().lower()
 
